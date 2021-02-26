@@ -1,0 +1,13 @@
+# Write a Python program to get a single string from two given
+# strings, separated by a space and swap the first two characters of each string.
+# Sample String : 'abc', 'xyz'
+# Expected Result : 'xyc abz'
+
+x="abc"
+y="xyz"
+c= x[0:2] + y[2:]
+d =y[0:2] + x[2:]
+print(c ,end=" ")
+print(d ,end="")
+
+
